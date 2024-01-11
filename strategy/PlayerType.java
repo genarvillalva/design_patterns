@@ -1,6 +1,5 @@
 package strategy;
 
-public class PlayerType {
-    Team team;
-    public PlayerType()
+public enum PlayerType {
+    GOALIE, FORWARD, DEFENCE_MAN
 }
