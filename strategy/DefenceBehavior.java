@@ -1,5 +1,9 @@
 package strategy;
-
-public class DefenceBehavior {
+/**
+ * Creates an Interface for DefenceBehavior
+ * @author Genar Villalva
+ */
+public interface DefenceBehavior {
+    public String play();
     
 }
