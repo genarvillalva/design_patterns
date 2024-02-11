@@ -39,8 +39,8 @@ public class FlashCards {
    */
   public Word getWord() {
     int randomInt = rand.nextInt(words.size());
-    Word word = words.get(randomInt);
+    currentWord = words.get(randomInt);
     words.remove(randomInt);
-    return word;
+    return currentWord;
   }
 }
